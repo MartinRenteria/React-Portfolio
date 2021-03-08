@@ -18,7 +18,7 @@ import Navbar from "./components/Navbar";
                  <Route component={About} path='/about' />
                  <Route component={Portfolio} path='/portfolio' />
                  <Route component={Resume} path='/resume' />
-                 <Route component={ContactMe} path='/contactme' />
+                 <Route component={ContactMe} href='/contactme' />
                 </Switch>
             </BrowserRouter>
         )
