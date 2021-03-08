@@ -1,28 +1,23 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 
-export default function Navbar() {
-    return (
-        <header>
-            <div>
-                <nav>
-                    <NavLink to="/" exact>
-                        Home
-                    </NavLink>
-                    <NavLink to="about">
-                        About Me
-                    </NavLink>
-                    <NavLink to="portfolio">
-                        Portfolios
-                    </NavLink>
-                    <NavLink to="">
-                        Resume
-                    </NavLink>
-                    <NavLink to="contactme">
-                        Contact Me
-                    </NavLink>
-                </nav>
-            </div>
-        </header>
+
+        function Navi() {
+            return (
+        <Navbar bg="light" expand="lg">
+          <Navbar.Brand href="/Home">Martin Renteria - FullStack Software Developer</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="mr-auto">
+              <Nav.Link href="Home">Home</Nav.Link>
+              <Nav.Link href="Portfolio">Portfolio</Nav.Link>
+              <Nav.Link href="">Resume</Nav.Link>
+              <Nav.Link href="ContactMe">Contact Me</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
         )
 }
+
+export default Navi;

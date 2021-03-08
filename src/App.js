@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "./components/Home";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
@@ -18,7 +19,7 @@ import Navbar from "./components/Navbar";
                  <Route component={About} path='/about' />
                  <Route component={Portfolio} path='/portfolio' />
                  <Route component={Resume} path='/resume' />
-                 <Route component={ContactMe} href='/contactme' />
+                 <Route component={ContactMe} path='/contactme' />
                 </Switch>
             </BrowserRouter>
         )
