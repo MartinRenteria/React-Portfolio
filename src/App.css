@@ -1,3 +1,5 @@
-.backgroundHeader {
-    background-image: url(./img/background.jpg);
+.projectButtons {
+    border: 0.2em solid white;
+    color: inherit;
+
 }

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 
 function About() {
@@ -13,14 +14,16 @@ function About() {
         tech world. Having earned my Bachelors in Psychology and gaining
         experience within the field's discipline, I learned interpersonal
         communication and working in teams that will no doubt assist me in
-        serving others within the world of technology. </p>
+        serving others within the world of technology. 
+      </p>
        <p> Ever since I was young, all I ever wanted to do was to help people.
         That mindset has not changed. Now, I continue to build my career
         with the motivation and determination to do just that. By combining
         my two passions, I believe i can reach and assist individuals using
-        the knowledge I have gained through Technology and Psychology.</p>
-      </div>
-        </main>
+        the knowledge I have gained through Technology and Psychology.
+       </p>
+    </div>
+    </main>
       )
 }
 
