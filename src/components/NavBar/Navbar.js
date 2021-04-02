@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import Resume from '../Resume/ResumeTech.pdf';
 
         function NavBar() {
             return (
@@ -12,7 +13,7 @@ import Nav from 'react-bootstrap/Nav';
               <Nav.Link href="Home">Home</Nav.Link>
               <Nav.Link href="Portfolio">Portfolio</Nav.Link>
               <Nav.Link href="ContactMe">Contact Me</Nav.Link>
-              <Nav.Link href="">Resume</Nav.Link>
+              <Nav.Link href={Resume} target="_blank" >Resume</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
