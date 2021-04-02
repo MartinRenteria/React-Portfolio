@@ -1,12 +1,9 @@
-/* eslint-disable react/jsx-no-target-blank */
-/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
-import Burger from './Projects/Burger-Muncher';
+import Burger from '../Portfolio/Projects/Burger/Burger-Muncher';
 
 function Portfolio() {
     return (
       <Burger />
-
     )
 }
 

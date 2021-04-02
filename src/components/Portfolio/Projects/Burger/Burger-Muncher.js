@@ -2,7 +2,7 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import BurgerApp from './burger-app.png';
-import '../Project.css';
+import '../../Project.css';
 
 function Burger() {
     return (
