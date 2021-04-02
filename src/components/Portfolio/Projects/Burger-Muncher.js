@@ -2,10 +2,11 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import BurgerApp from './burger-app.png';
+import '../Project.css';
 
 function Burger() {
     return (
-<Card style={{ width: '25rem' }} bg="dark" text="white" className="text-center">
+<Card style={{ width: '25rem' }} bg="dark" text="white" className="ProjectCard text-center">
   <Card.Img variant="top" src={BurgerApp} alt="Screenshot"/>
   <Card.Body>
     <Card.Title>Burger Muncher</Card.Title>
