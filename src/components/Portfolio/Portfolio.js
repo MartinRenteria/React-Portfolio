@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
-import Burger from './projects/Burger-Muncher';
+import Burger from './Projects/Burger-Muncher';
 
 function Portfolio() {
     return (
