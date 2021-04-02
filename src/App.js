@@ -1,7 +1,6 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import Home from "./components/Home";
 import Portfolio from "./components/Portfolio";
@@ -14,9 +13,9 @@ import Navbar from "./components/Navbar";
             <Router>
             <Navbar />
                 <Switch>
-                 <Route component={Home} path='/Home' exact/>
-                 <Route component={Portfolio} path='/Portfolio'/>
-                 <Route component={ContactMe} path='/ContactMe' />
+                 <Route exact path="/Home" component={Home}  />
+                 <Route exact path='/Portfolio' component={Portfolio} />
+                 <Route exact path='/ContactMe' component={ContactMe} />
                 </Switch>
             </Router>
             </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
-        function Navi() {
+        function NavBar() {
             return (
         <Navbar bg="dark" variant="dark" expand="lg">
           <Navbar.Brand href="/Home">Martin Renteria - FullStack Software Developer</Navbar.Brand>
@@ -11,12 +11,12 @@ import Nav from 'react-bootstrap/Nav';
             <Nav className="mr-auto">
               <Nav.Link href="Home">Home</Nav.Link>
               <Nav.Link href="Portfolio">Portfolio</Nav.Link>
-              <Nav.Link href="">Resume</Nav.Link>
               <Nav.Link href="ContactMe">Contact Me</Nav.Link>
+              <Nav.Link href="">Resume</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
         )
 }
 
-export default Navi;
+export default NavBar;
