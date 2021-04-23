@@ -10,10 +10,10 @@ import Navbar from "./components/NavBar/Navbar";
     function App() {
         return (
             <div>
+            <Home />
             <Router>
             <Navbar />
                 <Switch>
-                 <Route exact path="/Home" component={Home}  />
                  <Route exact path='/Portfolio' component={Portfolio} />
                  <Route exact path='/ContactMe' component={ContactMe} />
                 </Switch>

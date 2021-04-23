@@ -1,19 +1,36 @@
-import React from 'react';
-import About from '../AboutMe/About';
-import './Home.css';
+import * as React from "react"
+import scrollTo from "gatsby-plugin-smoothscroll"
+import { StaticImage } from "gatsby-plugin-image"
 
+import Typewriter from "typewriter-effect"
+import { Button } from "@material-ui/core"
+import "./Home.scss"
 
-
-export default function Home() {
-    return (
-        <main>
-        <div className="jumbotron jumbotron-fluid d-flex align-items-center">
-            <div className="container text-center">
-            </div>
-        </div>
-            <About />
-        </main>
-    );
-    
+export default function IntroPage() {
+  return (
+    <section className="intro">
+      <StaticImage
+        alt="Author"
+        className="Author"
+        src="../../images/Martin.jpg"
+        placeholder="blurred"
+      />
+      <Typewriter
+        options={{ delay: 50 }}
+        onInit={(typewriter) => {
+          typewriter.start()
+            .typeString(`Hi there, I'm Martin Renteria.<br/>A JavaScript developer<br/>based in Bellevue, WA.`)
+        }}
+      />
+      <Button
+        onClick={() => scrollTo(".projects")}
+        variant="outlined"
+        size="large"
+      >
+        View My Portfolio
+      </Button>
+    </section>
+  )
 }
+
 
