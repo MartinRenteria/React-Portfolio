@@ -1,5 +1,4 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Home from "./components/Home/Home";
@@ -12,12 +11,8 @@ import Navbar from "./components/NavBar/Navbar";
             <div>
             <Navbar />
             <Home />
-            <Router>
-                <Switch>
-                 <Route exact path='/Portfolio' component={Portfolio} />
-                 <Route exact path='/ContactMe' component={ContactMe} />
-                </Switch>
-            </Router>
+            <Portfolio />
+            <ContactMe />
             </div>
         )
     }

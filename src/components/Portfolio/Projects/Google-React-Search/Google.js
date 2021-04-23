@@ -4,12 +4,12 @@ import Button from 'react-bootstrap/Button';
 import GoogleApp from './GooglePlayStore.png';
 import '../../Project.css';
 
-function Burger() {
+function Google() {
     return (
 <Card style={{ width: '25rem' }} bg="dark" text="white" className="ProjectCard text-center">
   <Card.Img variant="top" src={GoogleApp} alt="Screenshot"/>
   <Card.Body>
-    <Card.Title>Burger Muncher</Card.Title>
+    <Card.Title>Google Boook Search</Card.Title>
     <Card.Text>
     This application required the knowledge of modals, using object relational mapping(ORM), MySQL, Node and handlebars in order to collect the users input display their desired food and devour it!
     </Card.Text>
@@ -20,4 +20,4 @@ function Burger() {
     )
 }
 
-export default Burger;
+export default Google;
