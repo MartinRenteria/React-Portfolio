@@ -8,6 +8,7 @@ import "./Home.scss"
 
 export default function IntroPage() {
   return (
+    <main className="homeBackground">
     <section className="intro">
       <StaticImage
         alt="Author"
@@ -25,11 +26,13 @@ export default function IntroPage() {
       <Button
         onClick={() => scrollTo(".projects")}
         variant="outlined"
+        color="white"
         size="large"
       >
         View My Portfolio
       </Button>
     </section>
+    </main>
   )
 }
 

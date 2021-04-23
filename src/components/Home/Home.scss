@@ -1,4 +1,12 @@
-.intro {
+    .homeBackground {
+    background: url(Bellevue.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+    
+    .intro {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -14,6 +22,8 @@
     }
     
     .Typewriter {
+      -webkit-text-stroke: 2px white; /* width and color */
+      color:white;
       margin: 2vw auto;
       font-family: "Times New Roman", Times, serif;
       font-size: clamp(20px, 7vw, 45px);
@@ -35,6 +45,8 @@
     }
   
     button {
+      background-color: black;
+      color: white;
       opacity: 0;
       font-family: 'Oxanium', cursive;
       font-weight: 400;
