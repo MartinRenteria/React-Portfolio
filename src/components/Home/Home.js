@@ -13,7 +13,7 @@ export default function IntroPage() {
       <StaticImage
         alt="Author"
         className="Author"
-        src="../../images/Martin.jpg"
+        src="../images/Martin.jpg"
         placeholder="blurred"
       />
       <Typewriter
