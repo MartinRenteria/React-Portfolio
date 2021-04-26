@@ -10,7 +10,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
   
     .Author {
@@ -23,7 +23,7 @@
     
     .Typewriter {
       -webkit-text-stroke: 1.0px black; /* width and color */
-      color:white;
+      color:black;
       margin: 2vw auto;
       font-family: "Times New Roman", Times, serif;
       font-size: clamp(25px, 7vw, 50px);
@@ -44,7 +44,7 @@
       }
     }
   
-    button {
+    Button {
       background-color: black;
       color: white;
       opacity: 0;
