@@ -1,10 +1,11 @@
-import * as React from "react"
-import scrollTo from "gatsby-plugin-smoothscroll"
-import { StaticImage } from "gatsby-plugin-image"
+import * as React from "react";
+import scrollTo from "gatsby-plugin-smoothscroll";
+import { StaticImage } from "gatsby-plugin-image";
+import Author from "../../images/Author.jpg"
+import Typewriter from "typewriter-effect";
+import { Button } from "@material-ui/core";
+import "./Home.scss";
 
-import Typewriter from "typewriter-effect"
-import { Button } from "@material-ui/core"
-import "./Home.scss"
 
 export default function IntroPage() {
   return (
@@ -13,7 +14,7 @@ export default function IntroPage() {
       <StaticImage
         alt="Author"
         className="Author"
-        src="../images/Martin.jpg"
+        src={Author}
         placeholder="blurred"
       />
       <Typewriter
