@@ -18,7 +18,6 @@
            siteMetadata {
              title
              description
-             author
            }
          }
        }
