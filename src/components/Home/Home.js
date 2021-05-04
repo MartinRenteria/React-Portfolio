@@ -11,12 +11,14 @@ export default function IntroPage() {
   return (
     <main className="homeBackground">
     <section className="intro">
+      <div className="Author">
       <StaticImage
         alt="Author"
         className="Author"
         src={Author}
         placeholder="blurred"
       />
+      </div>
       <Typewriter
         options={{ delay: 50 }}
         onInit={(typewriter) => {
