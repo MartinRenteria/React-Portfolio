@@ -5,7 +5,7 @@ import { useStaticQuery, graphql } from "gatsby";
 import Home from "../components/Home/Home";
 import ContactMe from "../components/ContactMe/ContactMe";
 import Navbar from "../components/NavBar/Navbar";
-import "./index.scss"
+import "./index.css"
 
 
 export default function Layout ({ children }) {

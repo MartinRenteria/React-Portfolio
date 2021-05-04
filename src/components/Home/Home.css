@@ -1,16 +1,19 @@
+.intro {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+    
     .homeBackground {
+      
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     }
-    
-    .intro {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
   
     .Author {
       background-color: black;
@@ -30,18 +33,18 @@
       text-align: center;
       width: 95%;
       height: clamp(90px, 31.5vw, 202.5px);
+    }
       
-      &__cursor {
+      cursor {
         animation: disappear 0.5s linear forwards;
         animation-delay: 4.5s;
+      }
   
       @keyframes disappear {
         to {
           opacity: 0;
         }
       }
-      }
-    }
   
     Button {
       background-color: black;
@@ -52,11 +55,10 @@
       text-transform: capitalize;
       animation: appear 1s linear forwards;
       animation-delay: 4.5s;
+    }
   
       @keyframes appear {
         100% {
           opacity: 1;
         }
       }
-    }
-  }

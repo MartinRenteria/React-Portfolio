@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import Author from "../../images/Author.jpg"
 import Typewriter from "typewriter-effect";
 import { Button } from "@material-ui/core";
-import "./Home.scss";
+import "./Home.css";
 
 
 export default function IntroPage() {
