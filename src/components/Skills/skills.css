@@ -1,0 +1,24 @@
+#skill {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 1em;
+}
+
+#skill-title {
+	text-align: center;
+	margin-bottom: .15em;
+}
+
+#skill-row {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-icon {
+    font-size: 3em;
+    margin: 25px 25px 0px 0px;
+    text-decoration: none;
+}
