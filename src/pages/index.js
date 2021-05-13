@@ -5,24 +5,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "../components/Home/Home";
 import ContactMe from "../components/ContactMe/ContactMe";
 import Navbar from "../components/NavBar/Navbar";
+import Skills from "../components/Skills/skills";
 import "./index.css"
 
 
 export default function Layout ({ children }) {
-    const data = useStaticQuery(graphql`
-      query SiteTitleQuery {
-        site {
-          siteMetadata {
-            description
-          }
-        }
-      }
-    `)
         return (
             <>
             <Navbar />
             <Home />
             <ContactMe />
+            <Skills />
             </>
         )
     }
